@@ -27,7 +27,7 @@ Key activities include:
 
 #### **🛠️ IT & Infrastructure Knowledge**
 
-- 🌍 **Networking & ISP Experience** – Hands-on experience providing support and troubleshooting for dial-up connections, ISDN, and fiber optics within an Internet Service Provider (ISP) setting
+- 🌍 **Networking & ISP Experience** – Hands-on experience providing support and troubleshooting for dial-up, ISDN, ADSL, fiber optics, and pocket Wi-Fi connections within an Internet Service Provider (ISP) setting
 - 📞 **Technical Support & Training** – Experience as a supervisor handling customer support, troubleshooting, and staff training
 
 ### **🌍 Languages**
