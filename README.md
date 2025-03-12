@@ -1,6 +1,6 @@
 # **Analytics-Portfolio** 📊
 
-*Breaking into Data Analytics—Excel, SQL & Visualization Portfolio.*  
+*Breaking into Data Analytics—Excel, SQL & Visualization Portfolio*  
 
 ---
 
@@ -15,16 +15,18 @@ Key activities include:
 
 - 🎯 **Google Analytics 4 (GA4) Certified** – Web analytics and data-driven marketing insights
 - 📖 **Statistics Background (University & Independent Study)**  
-  Studied fundamental statistics in university courses (2017, 2020). Currently integrating statistical concepts into Python (pandas, NumPy) for data analysis.
+  Studied fundamental statistics in university courses (2017, 2020). Currently integrating statistical concepts into Python (pandas, NumPy) for data analysis
 
 #### **💻 Programming & Tools**
 
 - 🐍 **Python for Data Analysis (Learning & Application)** – Utilizing pandas and NumPy for data processing and statistical analysis
 - 🗄️ **SQL (Practical Experience & Review)** – Previously used SQL in a professional setting for survey data analysis and web-based reporting system development (database used may have differed). Currently reviewing and enhancing query skills in PostgreSQL within a cloud environment, covering SELECT, WHERE, LIKE, IN, ORDER BY, CASE, COUNT, MAX, DISTINCT, GROUP BY, JOIN, INNER JOIN, RIGHT JOIN, COALESCE, and CASE WHEN
 - 🌐 **WordPress (Setup & Maintenance)** – Experience in site creation, updates, and migrations
-- 🔄 **Server Migration (without Domain Transfer)** – Hobbyist experience migrating WordPress sites, manually handling DNS settings, database transfers, and configuration adjustments.
+- 🔄 **Server Migration (without Domain Transfer)** – Hobbyist experience migrating WordPress sites, manually handling DNS settings, database transfers, and configuration adjustments
 
-- 🛠️ **IT & Infrastructure Knowledge** – Experience in ISP support supervision, technical training, and troubleshooting for various network connections and systems, including Windows, Mac, and server environments.
+- 🛠️ **Rapid Application Development** – Built an Android app using MIT App Inventor 2 within three months as a university capstone project. Demonstrated the ability to quickly learn and apply new programming concepts, even outside my primary expertise
+
+- 🤖 **IT & Infrastructure Knowledge** – Experience in ISP support supervision, technical training, and troubleshooting for various network connections and systems, including Windows, Mac, and server environments
 
 ### **🌍 Languages**
 
