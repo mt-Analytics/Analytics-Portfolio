@@ -20,7 +20,7 @@ Key activities include:
 #### **💻 Programming & Tools**
 
 - 🐍 **Python for Data Analysis (Learning & Application)** – Utilizing pandas and NumPy for data processing and statistical analysis
-- 🗄️ **SQL (Practical Experience & Review)** – Previously used SQL in a professional setting for survey data analysis and web-based reporting system development (database used may have differed). Currently reviewing and enhancing query skills in PostgreSQL within a cloud environment, covering SELECT, WHERE, LIKE, IN, ORDER BY, CASE, COUNT, MAX, DISTINCT, GROUP BY, JOIN, INNER JOIN, RIGHT JOIN, COALESCE, and CASE WHEN
+- 🗄️ **SQL (Practical Experience & Review)** – Previously participated in a project involving database operations for web-based reporting and survey data entry systems (database used may have differed). Currently refining SQL skills in PostgreSQL within a cloud environment, focusing on key queries like SELECT, JOIN, GROUP BY, and CASE WHEN
 - 🌐 **WordPress (Setup & Maintenance)** – Experience in site creation, updates, and migrations
 - 🔄 **Server Migration (without Domain Transfer)** – Hobbyist experience migrating WordPress sites, manually handling DNS settings, database transfers, and configuration adjustments
 
