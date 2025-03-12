@@ -25,10 +25,7 @@ Key activities include:
 - 🌐 **WordPress (Setup & Maintenance)** – Experience in site creation, updates, and migrations
 - 🔄 **Server Migration (without Domain Transfer)** – Hobbyist experience migrating WordPress sites, manually handling DNS settings, database transfers, and configuration adjustments.
 
-#### **🛠️ IT & Infrastructure Knowledge**
-
-- 🌍 **Networking & ISP Experience** – Hands-on experience providing support and troubleshooting for dial-up, ISDN, ADSL, fiber optics, and pocket Wi-Fi connections within an Internet Service Provider (ISP) setting
-- 📞 **Technical Support & Training** – Experience as a supervisor handling customer support, troubleshooting, and staff training
+- 🛠️ **IT & Infrastructure Knowledge** – Experience in ISP support supervision, technical training, and troubleshooting for various network connections and systems, including Windows, Mac, and server environments.
 
 ### **🌍 Languages**
 
