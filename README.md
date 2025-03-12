@@ -1,10 +1,13 @@
-# Analytics-Portfolio
-Breaking into Data Analytics—Excel, SQL &amp; Visualization Portfolio.
-Independent Data Analysis Learning
+# **Analytics-Portfolio** 📊
 
-## Independent Data Analysis Learning
+*Breaking into Data Analytics—Excel, SQL & Visualization Portfolio.*  
 
-Since July 2023, I have been actively expanding my skills in data analysis through independent study and preparation for future projects. Key activities include:
+---
+
+## **Independent Data Analysis Learning** 📚
+
+**Since July 2023, I have been actively expanding my skills in data analysis through independent study and preparation for future projects.**  
+Key activities include:
 
 ### **Current Skills & Learning Progress**
 
