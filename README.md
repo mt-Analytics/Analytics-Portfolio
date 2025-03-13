@@ -15,7 +15,8 @@ Key activities include:
 
 - 🎯 **Google Analytics 4 (GA4) Certified** – Web analytics and data-driven marketing insights
 - 📖 **Statistics Background (University & Independent Study)**  
-  Studied fundamental statistics in university courses (2017, 2020). Currently integrating statistical concepts into Python (pandas, NumPy) for data analysis
+  - Studied fundamental statistics in university courses (2017, 2020)
+  - Currently integrating statistical concepts into Python (pandas, NumPy) for data analysis
 
 #### **💻 Programming & Tools**
 
