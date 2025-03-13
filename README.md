@@ -1,42 +1,62 @@
-# **Analytics-Portfolio** 📊
+# Analytics-Portfolio 📊
 
-*Breaking into Data Analytics—Excel, SQL & Visualization Portfolio*  
+## Breaking into Data Analytics—SQL & Visualization Portfolio
+
+### Independent Data Analysis Learning 📚
+
+Since July 2023, I have been actively expanding my skills in data analysis through independent study and preparation for future projects. Key activities include:
 
 ---
 
-## **Independent Data Analysis Learning** 📚
+## 📌 Current Skills & Learning Progress
 
-Since July 2023, I have been actively expanding my skills in data analysis through independent study and preparation for future projects.
-Key activities include:
+### 📊 Data Analysis & Statistics
 
-### **Current Skills & Learning Progress**
-
-#### **📊 Data Analysis & Statistics**
-
-- 🎯 **Google Analytics 4 (GA4) Certified** – Web analytics and data-driven marketing insights
-- 📖 **Statistics Background (University & Independent Study)**  
+- 🎯 Google Analytics 4 (GA4) Certified – Acquired fundamental knowledge of web analytics and data-driven marketing
+- 📖 Statistics Background (University & Independent Study)
   - Studied fundamental statistics in university courses (2017, 2020)
-  - Currently integrating statistical concepts into Python (pandas, NumPy) for data analysis
+  - Currently integrating statistical concepts into Python for data analysis
 
-#### **💻 Programming & Tools**
+### 💻 Programming & Tools
 
-- 🐍 **Python for Data Analysis (Learning & Application)** – Utilizing pandas and NumPy for data processing and statistical analysis
-- 🗄️ **SQL (Practical Experience & Review)** – Previously participated in a project involving database operations for web-based reporting and survey data entry systems (database used may have differed). Currently refining SQL skills in PostgreSQL within a cloud environment, focusing on key queries like SELECT, JOIN, GROUP BY, and CASE WHEN
-- 🌐 **WordPress (Setup & Maintenance)** – Experience in site creation, updates, and migrations
-- 🔄 **Server Migration (without Domain Transfer)** – Hobbyist experience migrating WordPress sites, manually handling DNS settings, database transfers, and configuration adjustments
+- 🐍 Python for Data Analysis (Learning & Application)
+  - Utilizing pandas for data processing and statistical analysis
+  - Planning to learn NumPy for advanced data manipulation
+- 🗄️ SQL (Practical Experience & Review)
+  - Previously participated in a project involving database operations for web-based reporting and survey data entry systems
+  - Currently refining SQL skills in PostgreSQL within a cloud environment
+  - Focusing on key queries like SELECT, JOIN, GROUP BY, and CASE WHEN
+- 🌐 WordPress (Setup & Maintenance)
+  - Experience in site creation, updates, and migrations
+- 🔄 Server Migration (without Domain Transfer)
+  - Hobbyist experience migrating WordPress sites within two days, manually handling DNS settings, database transfers, and configuration adjustments
+- 🛠️ Rapid Application Development
+  - Built an interactive Android app using MIT App Inventor 2 as a university capstone project
 
-- 🛠️ **Rapid Application Development** – Built an Android app using MIT App Inventor 2 within three months as a university capstone project. Demonstrated the ability to quickly learn and apply new programming concepts, even outside my primary expertise
+### 🌍 Languages
 
-- 🤖 **IT & Infrastructure Knowledge** – Experience in ISP support supervision, technical training, and troubleshooting for various network connections and systems, including Windows, Mac, and server environments
+- 🇯🇵 Japanese – Native
+- 🇨🇳 Chinese (Mandarin) – Near-native
+- 🇺🇸 English – Business proficiency
 
-### **🌍 Languages**
+---
 
-- 🇯🇵 **Japanese** – Native
-- 🇨🇳 **Chinese (Mandarin)** – Near-native
-- 🇺🇸 **English** – Business proficiency
-
-### **🚀 Next Steps**
+## 🚀 Next Steps
 
 - 🏆 Applying SQL in practical data extraction tasks
 - 📊 Exploring data visualization techniques (Tableau, Matplotlib, Seaborn)
 - 🐍 Further developing Python skills for data analysis
+
+---
+
+## 🔗 External Links
+
+- **Qiita:** [Check out my technical blog posts](https://qiita.com/TLyticsInsight)
+
+---
+
+### 📝 Notes
+
+This portfolio serves as a high-level overview of my skills and learning progress. For in-depth articles and technical write-ups, please visit my **Qiita** page.\
+Going forward, I will document my daily learning progress and technical insights on **Qiita**.
+
