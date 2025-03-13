@@ -51,7 +51,7 @@ Since July 2023, I have been actively expanding my skills in data analysis throu
 
 ## 🔗 External Links
 
-- **Qiita:** [Check out my technical blog posts](https://qiita.com/TLyticsInsight)
+- **Qiita:** [Check out my technical blog posts](https://qiita.com/TLyticsInsight)　(Currently limited access)  
 
 ---
 
