@@ -4,7 +4,7 @@
 
 ### Independent Data Analysis Learning 📚
 
-Since July 2025, I have been actively expanding my skills in data analysis through independent study and preparation for future projects. Key activities include:
+Since mid-February 2025, I have been actively expanding my skills in data analysis through independent study and practical projects. Key activities include:
 
 ---
 
