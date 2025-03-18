@@ -23,7 +23,7 @@ Since mid-February 2025, I have been actively expanding my skills in data analys
   - Utilizing pandas for data processing and statistical analysis
   - Planning to learn NumPy for advanced data manipulation
 - 🗄️ SQL (Practical Experience & Review)
-  - Previously participated in a project involving database operations for web-based reporting and survey data entry systems
+  - Used SQL in a web development project for an FAQ management system, performing data retrieval and display tasks as part of the development process
   - Currently refining SQL skills in PostgreSQL within a cloud environment
   - Focusing on key queries like SELECT, JOIN, GROUP BY, and CASE WHEN
 - 🌐 WordPress (Setup & Maintenance)
