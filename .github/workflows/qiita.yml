@@ -16,18 +16,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Python
-
-      - name: Install dependencies
-      run: |
-      pip install --upgrade pip
-      pip install qiita-cli
-    
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install qiita-cli
-        run: pip install qiita-cli
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install qiita-cli
 
       - name: Fetch Qiita articles
         env:
