@@ -24,7 +24,7 @@ Since mid-February 2025, I have been actively expanding my skills in data analys
   - Planning to learn NumPy for advanced data manipulation
 - 🗄️ SQL (Practical Experience & Review)
   - Used SQL in a web development project for an FAQ management system, performing data retrieval and display tasks as part of the development process
-  - Currently refining SQL skills in PostgreSQL within a cloud environment
+  - Continuing to enhance SQL skills in PostgreSQL through independent learning in a cloud environment
   - Focusing on key queries like SELECT, JOIN, GROUP BY, and CASE WHEN
 - 🌐 WordPress (Setup & Maintenance)
   - Experience in site creation, updates, and migrations
