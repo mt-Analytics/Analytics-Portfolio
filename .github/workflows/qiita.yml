@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install qiita-cli
-        run: pip install qiita-cli
+      - name: Install qiita-cli from GitHub
+        run: pip install git+https://github.com/TLyticsInsight/Analytics-Portfolio.git
 
       - name: Fetch Qiita articles
         env:
