@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 1 * *'  # 毎日0時に実行（スケジュール実行）
+    - cron: '0 0 1 * *' # 30日に一回0時に実行
 
 jobs:
   fetch_qiita_articles:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -21,12 +21,34 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install git+https://x-access-token:${{ QIITA_TOKEN }}@github.com/TLyticsInsight/qiita-cli.git
+        run: pip install requests
 
       - name: Fetch Qiita articles
         env:
           QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
         run: |
-          qiita-cli articles list --access-token $QIITA_TOKEN
+          python <<EOF
+          import os
+          import requests
+
+          token = os.environ['QIITA_TOKEN']
+          url = 'https://qiita.com/api/v2/authenticated_user/items?page=1&per_page=100'
+          headers = {'Authorization': f'Bearer {token}'}
+
+          response = requests.get(url, headers=headers)
+          articles = response.json()
+
+          with open('README.md', 'w') as f:
+              f.write("# Qiita Articles\n\n")
+              for article in articles:
+                  f.write(f"- [{article['title']}]({article['url']})\n")
+          print("Successfully updated README.md")
+          EOF
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update Qiita article list" || echo "No changes to commit"
+          git push
