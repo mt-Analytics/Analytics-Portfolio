@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install git+https://x-access-token:${{ secrets.1fb437f4aadfd3c6cb3d67104a036e0725bba0e3 }}@github.com/TLyticsInsight/qiita-cli.git
+          pip install git+https://x-access-token:${{ QIITA_TOKEN }}@github.com/TLyticsInsight/qiita-cli.git
 
       - name: Fetch Qiita articles
         env:
