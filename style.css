@@ -1,18 +1,77 @@
+/* === 基本設定 === */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 40px;
-  color: #333;
+  background: linear-gradient(135deg, rgba(127, 255, 212, 0.3), rgba(0, 123, 204, 0.3)); /* 背景色 - アクアマリンから薄いブルーへのグラデーション */
+  color: #333; /* 文字色 - 読みやすいダークグレー */
 }
 
-h1 {
-  color: #007bff;
+/* === 見出しの色設定 === */
+h1, h2 {
+  color: #007acc; /* 見出し色 - 明るいブルーでアクセント */
 }
 
-a {
-  color: #0056b3;
-  text-decoration: none;
+/* === カードレイアウト設定 === */
+.card {
+  background-color: rgba(255, 255, 255, 0.85); /* カード背景色 - 透明感を調整したホワイト */
+  border-radius: 12px; /* 角丸 - 柔らかい印象を与える */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 影 - 軽い立体感を演出 */
+  margin-top: 30px; /* カード上部の余白を追加 */
+  margin-bottom: 30px; /* カード下部の余白を増やす */
+  overflow: hidden; /* カード内の要素がはみ出さないようにする */
+  width: 100%; /* カードの幅を80%に設定 (お好みで調整) */
+  max-width: 800px; /* 最大幅を設定して広すぎないように調整 */
+  margin: 0 auto; /* 左右の余白を自動で調整して中央に寄せる */
+  padding: 20px; /* カード内の余白を追加して、文字を内側に入れる */
 }
 
-a:hover {
-  text-decoration: underline;
+/* === カード内リンク設定 === */
+.card a {
+  display: block;
+  padding: 20px;
+  text-decoration: none; /* 下線を消してシンプルに */
+  color: inherit; /* 親要素の文字色を継承 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* ホバー時の滑らかな変化 */
+}
+
+.card a:hover {
+  transform: translateY(-4px); /* ホバー時の浮き上がりエフェクト */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* ホバー時の影を強調 */
+}
+
+/* === カード内見出し設定 === */
+.card h2, .card h3 {
+  margin-top: 0; /* 見出しの上の余白をなくす */
+  color: #ff1493; /* カード内見出し色 - deeppink */
+}
+
+/* === カード内テキスト設定 === */
+.card span {
+  display: inline-block;
+  margin-top: 10px; /* テキストの上の余白 */
+  color: #007acc; /* テキスト色 - 見出しと同じブルーで統一感を出す */
+}
+
+/* === README表示用のスタイル === */
+.readme-content {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* GitHubのマークダウンのスタイルをそのまま反映 */
+.markdown-body {
+  all: initial; /* 全てのスタイルを初期化 */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #24292e; /* GitHub標準のテキスト色 */
+}
+
+/* README内のh2をGitHub風に */
+.markdown-body h2 {
+  color: #0366d6; /* GitHubの見出しカラー */
+  font-size: 1.5em;
+  margin-top: 24px;
 }
