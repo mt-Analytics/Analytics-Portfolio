@@ -1,28 +1,20 @@
 import os
 import requests
 
-def fetch_qiita_articles():
-    token = os.environ.get('QIITA_TOKEN')
-    if not token:
-        print("Qiita token not found.")
-        return
+QIITA_TOKEN = os.environ.get("QIITA_TOKEN")
+USER_NAME = "TLyticsInsight"  # Qiitaのユーザー名を入力
 
-    url = 'https://qiita.com/api/v2/authenticated_user/items?page=1&per_page=100'
-    headers = {'Authorization': f'Bearer {token}'}
+url = f"https://qiita.com/api/v2/users/{USER_NAME}/items"
+headers = {
+    "Authorization": f"Bearer {QIITA_TOKEN}"
+}
 
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print(f"Failed to fetch articles: {response.status_code}")
-        print(response.text)
-        return
+response = requests.get(url, headers=headers)
+articles = response.json()
 
-    articles = response.json()
-
-    with open('README.md', 'w', encoding='utf-8') as f:
-        f.write("# Qiita Articles\n\n")
-        for article in articles:
-            f.write(f"- [{article['title']}]({article['url']})\n")
-    print("Successfully updated README.md")
-
-if __name__ == "__main__":
-    fetch_qiita_articles()
+with open("qiita_articles.md", "w", encoding="utf-8") as f:
+    f.write("# Qiita新着記事一覧\n\n")
+    f.write("以下はQiitaに投稿した最新の記事です。\n\n")
+    for article in articles[:10]:  # 最新10件表示
+        f.write(f"- [{article['title']}]({article['url']})\n")
+    f.write("\n定期的に更新しています。\n")
