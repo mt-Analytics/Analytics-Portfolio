@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # 毎日0時に実行（スケジュール実行）
+    - cron: '0 0 1 * *'  # 毎日0時に実行（スケジュール実行）
 
 jobs:
   fetch_qiita_articles:
