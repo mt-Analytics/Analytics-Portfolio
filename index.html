@@ -70,9 +70,7 @@
           articleElement.innerHTML = `
             <div class="card-content">
               <h3><a href="${article.url}" target="_blank">${article.title}</a></h3>
-              <p>作成者: ${article.user.name}</p>
-              <p>${new Date(article.created_at).toLocaleDateString()}</p>
-              <p>${article.body ? article.body.slice(0, 100) : '内容なし'}...</p>
+                          <p>${new Date(article.created_at).toLocaleDateString()}</p>
             </div>
           `;
           articlesContainer.appendChild(articleElement);
