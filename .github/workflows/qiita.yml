@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Fetch Qiita articles
-        run: python fetch_qiita_articles.py
+        run: python fetch_qiita.py
       
       - name: Commit and push changes
         run: |
