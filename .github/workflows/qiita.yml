@@ -8,6 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}  # ここを追加
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
