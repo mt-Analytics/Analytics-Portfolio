@@ -10,7 +10,6 @@ headers = {
 }
 
 response = requests.get(url, headers=headers)
-response = requests.get(api_url, headers=headers)
 
 # ステータスコードとレスポンスを表示
 print("Status Code:", response.status_code)
