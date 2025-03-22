@@ -10,6 +10,12 @@ headers = {
 }
 
 response = requests.get(url, headers=headers)
+response = requests.get(api_url, headers=headers)
+
+# ステータスコードとレスポンスを表示
+print("Status Code:", response.status_code)
+print("Response Data:", response.json())
+
 articles = response.json()
 
 with open("qiita_articles.md", "w", encoding="utf-8") as f:
