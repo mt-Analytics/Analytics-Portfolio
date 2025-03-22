@@ -12,8 +12,6 @@ h1, h2 {
 }
 
 .readme-content {
-  /* max-height: 400px; 任意の高さに調整 */
-  /* overflow-y: auto; 縦スクロールを有効化 */
   border: 1px solid #ccc;
   padding: 10px;
   background-color: #fff;
