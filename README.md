@@ -53,10 +53,8 @@ Since mid-February 2025, I have been actively expanding my skills in data analys
 
 - **Qiita:** [Check out my technical blog posts](https://qiita.com/TLyticsInsight)
 
----
-
 ### 📝 Notes
 
-This portfolio serves as a high-level overview of my skills and learning progress. For in-depth articles and technical write-ups, please visit my **Qiita** page.\
+This portfolio serves as a high-level overview of my skills and learning progress. For in-depth articles and technical write-ups, please visit my **Qiita** page.
 Going forward, I will document my daily learning progress and technical insights on **Qiita**.
 
