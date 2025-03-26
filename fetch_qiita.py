@@ -1,5 +1,6 @@
 import os
 import requests
+import time
 
 QIITA_TOKEN = os.environ.get("QIITA_TOKEN")
 USER_NAME = "TLyticsInsight"  # Qiitaのユーザー名を入力
@@ -9,14 +10,42 @@ headers = {
     "Authorization": f"Bearer {QIITA_TOKEN}"
 }
 
-response = requests.get(url, headers=headers)
+# API呼び出しにリトライ処理を追加
+def fetch_with_retry(url, headers, retries=3, delay=5):
+    for i in range(retries):
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            return response
+        print(f"Attempt {i+1} failed: {response.status_code}. Retrying in {delay} seconds...")
+        time.sleep(delay)
+    print("全ての試行に失敗しました。")
+    exit(1)
+
+response = fetch_with_retry(url, headers)
+
+# レート制限チェック
+remaining_requests = int(response.headers.get("X-RateLimit-Remaining", 0))
+if remaining_requests == 0:
+    print("APIのレート制限に達しました。しばらく待ってから再試行してください。")
+    exit(1)
 
 # ステータスコードチェック
 if response.status_code != 200:
     print(f"Error: {response.status_code}, {response.json()}")
     exit(1)
 
-articles = response.json()
+# JSON解析とエラーハンドリング
+try:
+    articles = response.json()
+    if not isinstance(articles, list):
+        print("APIレスポンスが予期しない形式です:", articles)
+        exit(1)
+    if len(articles) == 0:
+        print("記事が見つかりません。")
+        exit(0)
+except Exception as e:
+    print("JSON解析中にエラーが発生しました:", str(e))
+    exit(1)
 
 # ファイル書き込み
 with open("qiita_articles.md", "w", encoding="utf-8") as f:
