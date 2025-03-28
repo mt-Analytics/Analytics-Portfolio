@@ -6,5 +6,3 @@
 - [Revisiting Statistical Foundations: A Summary of My 2017 and 2020 Course Content](https://qiita.com/TLyticsInsight/items/c07890901aa15114acbe)
 - [Development Story of the Android App Created with No-Code for My Graduation Project](https://qiita.com/TLyticsInsight/items/cd6da621552a4bfd8e9a)
 - [From Beginner to Data Analyst: Hands-On with Google Colab, Neon, and Supabase for Data Preprocessing and Importing](https://qiita.com/TLyticsInsight/items/2eb73b17c3b2374362ed)
-
-定期的に更新しています。

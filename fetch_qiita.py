@@ -34,8 +34,16 @@ def fetch_with_retry(url, headers, retries=3, delay=5):
 # APIリクエスト実行（リトライ付き）
 response = fetch_with_retry(url, headers)
 
-# レート制限チェック
-remaining_requests = int(response.headers.get("X-RateLimit-Remaining", 0))
+# レート制限チェック（修正後）
+remaining_requests = response.headers.get("X-RateLimit-Remaining", "999")  # デフォルト値を 999 にする
+print(f"Rate-Limit-Remaining: {remaining_requests}")  # デバッグ用に出力
+
+try:
+    remaining_requests = int(remaining_requests)
+except ValueError:
+    print(f"Warning: X-RateLimit-Remaining の値が予期しない形式: {remaining_requests}")
+    remaining_requests = 999  # 安全策として999をセット
+
 if remaining_requests == 0:
     print("APIのレート制限に達しました。しばらく待ってから再試行してください。")
     exit(1)
