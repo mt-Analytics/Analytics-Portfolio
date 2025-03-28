@@ -22,8 +22,8 @@ jobs:
 
       - name: Fetch Qiita articles
         run: python fetch_qiita.py
-  	env:
-    	  QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
+        env:
+          QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
       
       - name: Commit and push changes
         run: |
