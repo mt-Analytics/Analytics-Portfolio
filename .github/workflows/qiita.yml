@@ -3,7 +3,7 @@ name: Update Qiita Articles
 on:
   schedule:
     - cron: '0 0 * * *' # 毎日0時に実行
-  workflow_dispatch: # 手動で実行も可能
+  workflow_dispatch: # 手動実行も可能
 
 jobs:
   update:
@@ -11,12 +11,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-      
+
       - name: Install dependencies
         run: pip install requests
 
@@ -24,11 +26,11 @@ jobs:
         run: python fetch_qiita.py
         env:
           QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
-      
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add qiita_articles.md
-          git commit -m "Update Qiita articles"
-          git push
+          git commit -m "Update Qiita articles" || echo "No changes to commit"
+          git push origin main
